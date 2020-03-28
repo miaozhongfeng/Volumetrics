@@ -1,0 +1,237 @@
+/* contact page - overwritten */
+body {
+	background-color: #1c1c1e;
+	height: auto;
+}
+.clear { 
+	clear: both;
+}
+.header {
+/*-webkit-box-shadow: 0px 14px 30px 18px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 14px 30px 18px rgba(0,0,0,0.75);
+box-shadow: 0px 14px 30px 18px rgba(0,0,0,0.75);*/
+}
+.background-left-back {
+	height: 150%;
+}
+.homepage-down-screen {
+	width: 100%;
+}
+.wood-second-cover {
+
+}
+.background-left-back {
+	box-shadow: 35px 3px 35px -3px rgba(0,0,0,0.56);
+}
+.middle-green-area-down {
+	background: #1c1c1e;
+	background-image: url('../images/middle-green-area-down.png');
+	background-size: 100% 100%;
+	margin-bottom: 2%;
+}
+.middle-green-area-down-content {
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* contact page - new */
+.contact-header {
+	font-family: Lobster;
+	font-size: 35px;
+	color: #27a43e;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: url('../images/background-cover-cut.jpg') no-repeat top center;
+	background-size: 100% 100%;
+}
+.contact-header-content{
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contact-header-line {
+	width: 5%;
+	display: inline-block;
+	border-color: #27a43e;
+	border-style: solid;
+}
+.contact-right-screen {
+	width: 100%;
+	background: #0f1010;
+}
+.contact-right-screen-content {
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+}	
+.contact-iframe {
+	border: none;
+	height: auto;
+	padding-bottom: 5%;
+	position: relative;
+}
+.styling-up {
+	background-color: #1d1e1e;
+	border-top-color: #27a43e;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-bottom-color: #282929;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	width: 100%;
+	height: 35px;
+	top: 0%;
+	z-index: 3;
+}
+.contact-list-body {
+
+}
+.contact-grid {
+	position: relative;
+	width:850px;
+	margin: auto;
+	top: 30px;
+}
+.contact-grid-content {
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contact-grid-left {
+	position: relative;
+	top: 12%;
+	float: left;
+	margin-right: 100px
+}
+.contact-grid-right {
+	position: relative;
+	top: 12%;
+	float: left;
+}
+.styled-field {
+	background: url('../images/styled-field.png') no-repeat top center;
+	background-size: 100% 100%;
+	padding: 12px;
+	width: 343px;
+}
+.left-grid-content {
+	width: 360px;
+	margin-top: 12px;
+}
+.left-grid-content-section {
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+.right-grid-content {
+	margin-top: 12px;
+}
+.right-grid-content-section {
+	margin-bottom: 3%;
+	display: inline-block;
+}
+.white-text-whitneysemibold {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	color: white;
+	font-size: 18px;
+}
+.green-text-whitneysemibold {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	color: #27a43e;
+	font-size: 18px;
+	display: inline;
+}
+.tiny-symbol {
+	width: 9%;
+}
+.contact-us-form {
+	width: 323px;
+}
+.contact-us-form input {
+	width: 323px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 7px;
+	margin-top: 7px;
+}
+.contact-us-form textarea {
+	min-width: 318px;
+	max-width: 66%;
+	padding: 7px;
+	margin-top: 7px;
+	height: 160px;
+}
+.green-btn-submit {
+	cursor: pointer;
+	background: url('../images/green-btn-placeholder.png') no-repeat top center;
+	background-size: 100% 100%;
+	width: 40%;
+	text-align: center;
+	padding: 12px 30px;
+	margin-left: 20%;
+	margin-top: 20px;
+}
+.contact-footer-text-bottom-whitneymedium {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	width: 74%;
+	position: relative;
+	margin-left: 13%;
+}
+#map_canvas {
+	width: 343px;
+	border-color: #27a43e;
+	border-style: solid;
+	position: absolute;
+	height: 130px;
+}
+.error {
+	color: #27a43e;
+	font-size: 14px;
+}
+.notification-sent {
+	position: relative;
+	width: 800px;
+	text-align: center;
+}
+.notifiction-success {
+	background: url('../images/notificationBox-success.png') no-repeat top center;
+	background-size: 100% 100%;
+	padding: 12px;
+	width: 800px;
+}
+.notifiction-error {
+	background: url('../images/notificationBox-error.png') no-repeat top center;
+	background-size: 100% 100%;
+	padding: 12px;
+	width: 800px;
+}
+.notifiction-warning {
+	background: url('../images/notificationBox-warning.png') no-repeat top center;
+	background-size: 100% 100%;
+	padding: 12px;
+	width: 800px;
+}
+.trophy-footer-content {
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.wood-second-cover {
+	background: #161819;
+	background-image: url('../images/background-cover-down.jpg');
+	background-size: 100% 100%;
+	margin-top: 8%;
+}
+.wood-second-cover-content {
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.middle-green-area-down-text {
+	padding: 3%;
+}

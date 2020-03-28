@@ -1,0 +1,192 @@
+body{
+	background: #0f1010;
+}
+.trophy-room-top{
+
+}
+.trophy-room-cover-img{
+	background:url(../images/trophy-room-cover-img.jpg);
+	background-size: 100% auto;
+	background-position: center center;
+	position: relative;
+	height:463px;
+	min-width: 1200px;
+	display:inline-block;
+}
+.green-up-arrow{
+	position: absolute;
+	bottom: 0;
+	height: 43px !important;
+	width: 100%;
+	background:url(../images/green-up-arrow.png) no-repeat center center;
+	min-width: 1200px;
+}
+.trophy-room-top .welcome-text{
+	width: 100%;
+	background: #27a43e;
+	color: #fff;
+	position: relative;
+	height: 140px;
+	min-width: 1200px;
+}
+.trophy-room-top .welcome-text .welcome-text-header{
+	height:70px;
+	width: 600px;
+	margin: auto;
+	position: relative;
+}
+.trophy-room-top .welcome-text h1{
+	font-family: Lobster;
+	text-align: center;
+	font-weight: normal;
+	padding: 15px 0;
+	background: #27a43e;
+	width: 400px;
+	text-align: center;
+	margin: auto;
+	position: absolute;
+	left: 100px;
+}
+.welcome-line{
+	height:3px;
+	width: 600px;
+	background: #fff;
+	position: absolute;
+	top:35px;
+	left:0;
+}
+.welcome-text .additional-info{
+	width: 750px;
+	margin: auto;
+	text-align: justify;
+}
+
+.trophy-room-wood-separator{
+	background: url('../images/footer-wood.jpg') no-repeat top center;
+	background-size:100% 118px ;
+	width: 100%;
+	height: 118px;
+	border-bottom: 5px solid #27a43e;
+}
+.shadow-line{
+	background: url(../images/sn-main-top.png);
+	width: 100%;
+	height: 30px;
+	display: inline-block;
+}
+.trophy-room-content{
+	width: 1200px;
+	margin: auto;
+}
+.trophy-room-content .trophy-room-main-content{
+	width: 900px;
+	margin-left: 150px;
+	display: inline-block;
+	padding-top: 30px;
+	margin-bottom: 30px;
+}
+.trophy-room-main-content .sidebar-menu{
+	float: left;
+	width: 235px;
+}
+.trophy-room-main-content .sidebar-menu .sidebar-menu-header{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 17px;
+	color: #fff;
+	background: url(../images/styled-field.png) no-repeat;
+	height: 31px;
+	line-height: 31px;
+	padding-left: 10px;
+	width: 235px;
+	background-size: 300px 31px;
+	background-position: -80px center;
+}
+.trophy-room-main-content .sidebar-menu a{
+	display: block;
+	color: #27a43e;
+	text-decoration: underline;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding:4px 0;
+}
+.trophy-room-main-content .sidebar-menu a:hover, .trophy-room-main-content .sidebar-menu a.category-active{
+	color: #fff !important;
+}
+
+.trophy-room-main-content .trophy-room-items-container{
+	float: left;
+	width:660px;
+}
+.trophy-room-items-container .trophy-room-item{
+	display: inline-block;
+	width: 282px;
+	height: 120px;
+	border: 3px solid #242424;
+	margin:0 20px;
+	margin-bottom: 40px;
+}
+.trophy-room-item .img{
+	float: left;
+	height: 120px;
+	width: 125px;
+	border-right: 3px solid #242424;
+}
+.trophy-room-item .trophy-room-item-text{
+	float:left;
+	width: 150px;
+	font-size: 9px;
+}
+.trophy-room-item .trophy-room-item-text span{
+	color:#fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+}
+.trophy-room-item .trophy-room-item-text span.key-measurements{
+	height:30px;
+	width: 100%;
+	display: inline-block;
+}
+.trophy-room-item .trophy-room-item-text .trophy-label{
+	color:#27a43e;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.trophy-room-item .trophy-room-item-text a{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	color:#27a43e;
+	text-decoration: underline;
+	float: right;
+}
+.trophy-room-content .no-results{
+	color: #fff;
+	text-align: center;
+}
+
+/* slick slider */
+.slick-slider{
+	margin: 0;
+	min-width: 1200px;
+}
+.prevArrow, .nextArrow{
+	position: absolute;
+	display: block;
+	line-height: 0;
+	font-size: 0;
+	cursor: pointer;
+	top: 220px;
+	margin-top: -10px;
+	height: 60px;
+	width: 29px;
+	opacity: 0.7;
+}
+.prevArrow{
+	left: 25px;
+	background: url(../images/slider-arrow-left.png) no-repeat;
+}
+.nextArrow{
+	right: 25px;
+	background: url(../images/slider-arrow-right.png) no-repeat;
+}
+.prevArrow:hover, .nextArrow:hover{
+	opacity: 1;
+}

@@ -1,0 +1,143 @@
+/* about us  +  FAQ + Advertising */
+
+.wood-header{
+	width: 100%;
+	background: url('../images/background-cover-cut.jpg') no-repeat top center;
+	color: #27a43e;
+	position: relative;
+	height: 87px;
+	min-width: 1200px;
+}
+.wood-header .wood-header-text{
+	height:87px;
+	line-height:87px;
+	width: 400px;
+	margin: auto;
+	position: relative;
+}
+.wood-header-text h1{
+	font-family: Lobster;
+	font-size: 35px;
+	text-align: center;
+	font-weight: normal;
+	/*padding: 15px 0;*/
+	/*background: #27a43e;*/
+	width: 200px;
+	text-align: center;
+	margin: auto;
+	position: absolute;
+	left: 100px;
+}
+.wood-header-line{
+	height:3px;
+	width: 100px;
+	background: #27a43e;
+	position: absolute;
+	top:42px;
+}
+.wood-header-line-left{
+	left:0;
+}
+.wood-header-line-right{
+	right:0;
+}
+
+.about-us-container{
+	width:900px;
+	margin: auto;
+	color:#fff;
+}
+.about-us-header{
+	margin-top: 40px;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	background: #27a43e;
+	min-width: 250px;
+	padding-left: 10px;
+}
+.about-us-header:after, .about-us-header::after{
+	border-width: 30px 30px 0 0;
+	border-color: #27a43e transparent transparent transparent;
+	_border-color: #27a43e #000000 #000000 #000000;
+}
+.about-us-text{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+}
+.styling-up{
+	background-color: #1d1e1e;
+	border-top-color: #27a43e;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-bottom-color: #282929;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	width: 100%;
+	height: 35px;
+	top: 0%;
+	z-index: 3;
+}
+
+/* FAQ */
+
+.faq-container{
+	width: 800px;
+	margin: auto;
+	color: #fff;
+}
+.faq-container .about-us-header{
+	min-width: 340px;
+}
+.faq-container .faq-answer{
+	padding-left: 30px;
+	padding-top: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+}
+
+.bottom-images{
+	margin: 40px 0;
+}
+
+.aboutus-top-image{
+	border: 3px solid #27a43e;
+	margin:40px 20px 20px 20px;
+	float: right;
+	max-width: 400px;
+}
+.faq-top-image{
+	border: 3px solid #27a43e;
+	margin:40px 0 20px 20px;
+	float: right;
+	max-width: 360px;
+}
+
+/* Advertising */
+.advertising-header .wood-header-text{
+	width: 440px !important;
+}
+.advertising-header .wood-header-text h1{
+	left: 120px;
+}
+
+.advertising-container{
+	width: 800px;
+	margin: 100px auto 200px auto;
+	color:#fff;
+	text-align: center;
+}
+.advertising-container .green-area{
+	margin-top: 10px;
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	background:url(../images/advertisement-banner.png) center center no-repeat;
+}
+.advertising-container .green-area a{
+	color:#fff;
+	font-family: Lobster;
+	font-size: 24px;
+}

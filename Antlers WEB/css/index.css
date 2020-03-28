@@ -1,0 +1,223 @@
+.home-background-top-container{
+	background: url(../images/background-cover.jpg);
+}
+.video-container{
+	position: relative;
+	width: 1200px;
+	height:675px;
+	margin: auto;
+}
+.video-container video{
+	width: 1200px;
+	position:absolute;
+}
+
+.video-container .video-bottom{
+	position: absolute;
+	bottom:0;
+	width: 1200px;
+}
+.video-container .video-text-container{
+	background-image: url(../images/green-transparent-pixel.png);
+	min-height:160px;
+	max-height: 200px;
+	padding: 20px 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.video-text-arrow{
+	background: url(../images/video-text-arrow.png) no-repeat center center;
+	width: 100%;
+	height: 40px;
+}
+.video-container .video-text-container *{
+	color: #fff;
+	width: 900px;
+	margin: auto;
+	font-size: 18px;
+}
+
+/* swf buttons */
+.swf-buttons{
+	width: 900px;
+	margin: auto;
+	display: inline-block;
+}
+.flashContent { width:100%; height:100%; position: absolute;opacity: 0}
+.swf-button-container{
+	width: 285px;
+	height:285px;
+	position: absolute;
+	top:130px;
+}
+.button-off, .no-flash{
+	width: 285px;
+	height:285px;
+	position: absolute;
+	background: url(../images/rottating_btn-OFF.png);
+	background-size: 285px 285px;
+}
+
+.swf-button-container:hover .flashContent{
+	opacity:1;
+}
+.swf-button-container:hover .button-off{
+	opacity:0;
+}
+
+.swf-button-container .swf-btn-text{
+	width: 285px;
+	height:285px;
+	position: absolute;
+	z-index: 1000;
+}
+.swf-button-container #btn-login{
+	background: url(../images/rotating-btn-login.png) no-repeat center center;
+}
+.swf-button-container #btn-score{
+	background: url(../images/rotating-btn-score.png) no-repeat center center;
+}
+.swf-button-container #btn-share{
+	background: url(../images/rotating-btn-share.png) no-repeat center center;
+}
+.swf-button-container #btn-my-scans{
+	background: url(../images/rotating-btn-mytrophyroom.png) no-repeat center center;
+}
+
+/* homepage-down-screen */
+
+.homepage-bottom{
+	
+}
+.homepage-bottom .affiliates-container{
+	background: #17181a;
+	
+	width: 100%;
+	height: 150px;
+	color: #27a43e;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 26px;
+	padding-top: 20px;
+}
+.homepage-bottom .empty-green{
+	width: 100%;
+	height:40px;
+	background: #27a43e;
+}
+.homepage-bottom .scan-container{
+	width: 100%;
+	min-width: 1200px;
+	position: relative;
+	display: inline-block;
+	background: url(../images/homepage-bottom-screen.jpg);
+	padding-top: 80px;
+	padding-bottom: 20px;
+	background-size: 100%;
+}
+.homepage-bottom .scan-container a{
+	color:#27a43e;
+}
+.homepage-bottom .scan-container .homepage-down-arrow{
+	background: url(../images/homepage-down-arrow.png) no-repeat center center;
+	height: 43px;
+	width: 100%;
+	position: absolute;
+	top:0;
+}
+.homepage-bottom .scan-container .scan-content{
+	width: 900px;
+	margin: auto;
+	font-size: 18px;
+}
+.scan-content .scan-left{
+	float: left;
+}
+.scan-content .scan-left img{
+	border:5px solid #27a43e;
+	width: 230px;
+}
+.scan-content .scan-right{
+	float: left;
+	width: 630px;
+	color: #fff;
+	margin-left: 29px;
+}
+.scan-content .scan-right img{
+	/*width: 270px;
+	height:270px;
+	margin-top: 18px;*/
+	position: relative;
+	width: 100%;
+}
+.homepage-download-container{
+	float:right;
+	margin-top: 140px;
+	display: inline-block;
+	width: 250px;
+	text-align: center;
+}
+.homepage-download-container p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+}
+.homepage-download-container .download-btn{
+	background-color: #27a43e;
+	padding: 5px 25px;
+	padding-right: 55px;
+	margin-bottom: 10px;
+	color: #fff;
+	border-radius: 4px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration: none;
+	font-size: 26px;
+	background-image: url(../images/download-icon.png);
+	background-position: right 25px center;
+	background-repeat: no-repeat;
+	background-size: 25px 28px;
+	color: #fff !important;
+}
+
+.fullscreen-overlay{
+	z-index: 10000;
+}
+.howitworks-popup{
+	position: relative;
+	width:830px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border: 2px solid #27a43e;
+	background: #0F1010;
+	margin: auto;
+	color: #fff;
+	text-align: center;
+	padding:30px;
+	overflow: auto;
+}
+.howitworks-popup a{
+	color: #27a43e;
+}
+.howitworks-text{
+	text-align: left;
+}
+.howitworks-popup img{
+	float: right;
+	width: 300px;
+	margin-left: 20px;
+}
+.howitworks-popup .close-btn{
+	position: absolute;
+	width:30px;
+	height: 30px;
+	right: 10px;
+	top: 10px;
+	background: #c83636 url(../images/close-white.png) no-repeat center center;
+	background-size: 20px 20px;
+	cursor: pointer;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+

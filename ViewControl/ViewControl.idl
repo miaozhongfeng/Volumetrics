@@ -1,0 +1,75 @@
+// ViewControl.idl : type library source for ActiveX Control project.
+
+// This file will be processed by the MIDL compiler tool to
+// produce the type library (ViewControl.tlb) that will become a resource in
+// ViewControl.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(87077A94-29BD-47C8-8933-046271B51C85), version(1.0),
+  helpfile("ViewControl.hlp"),
+  helpstring("ViewControl ActiveX Control module"),
+  control ]
+library ViewControlLib
+{
+	importlib(STDOLE_TLB);
+
+	//  Primary dispatch interface for CViewCtrl
+
+	[ uuid(92046CFC-E282-466B-8E40-57E8FC4EEB1D),
+	  helpstring("Dispatch interface for AntlersView Control")]
+	dispinterface _DViewControl
+	{
+		properties:
+		methods:
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+			[id(100)] SHORT toggleOrbitMode();
+			[id(101)] SHORT toggleZoomMode();
+			[id(102)] SHORT togglePanMode();
+			[id(103)] void resetMode();
+			[id(104)] BOOL loadAntler(LPCTSTR filename);
+			[id(106)] void setProgressBarHandle(ULONG handle);
+			[id(107)] void normalize(void);
+			[id(108)] BOOL enterAntlerPlane(ULONG num);
+			[id(109)] void exportToPDF(LPCTSTR filename, ULONG type);
+			[id(110)] void viewScoreSheet(ULONG type);
+			[id(111)] SHORT getNavigationMode(void);
+            [id(112)] void findCriticalPoints(void);
+			[id(113)] SHORT showVolume(ULONG num);
+			[id(114)] void toggleShowCenterLine();
+			[id(115)] void toggleShowAnnotations();
+			[id(116)] SHORT planeDetectionMode();
+			[id(117)] void toggleShowAxis();
+            [id(118)] BOOL enterSelectMode();
+            [id(119)] SHORT getToolMode();
+			[id(120)] SHORT getVisibleElements();
+            [id(121)] BOOL enterAntlerAutoPlanes();
+            [id(122)] BOOL enterLabelingMode();
+            [id(123)] void setNormalized();
+            [id(124)] void normalizeRestore();
+    };
+
+	//  Event dispatch interface for CViewCtrl
+
+	[ uuid(F105BD7D-C6E7-4B81-8A66-1CA295A72251),
+	  helpstring("Event interface for AntlersView Control") ]
+	dispinterface _DViewControlEvents
+	{
+		properties:
+			//  Event interface has no properties
+
+		methods:
+	};
+
+	//  Class information for CViewCtrl
+
+	[ uuid(3D224CEB-2A80-4B47-8EC5-94696583733A),
+	  helpstring("AntlersView Control"), control ]
+	coclass ViewControl
+	{
+		[default] dispinterface _DViewControl;
+		[default, source] dispinterface _DViewControlEvents;
+	};
+};

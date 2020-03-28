@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Kernel">
+      <UniqueIdentifier>{82c28fd8-cde3-4dc8-b793-23127a7b3df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel\Source Files">
+      <UniqueIdentifier>{3e95e1aa-1054-4d73-9d2d-cea908dbdbe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel\Header Files">
+      <UniqueIdentifier>{fed15178-a985-486e-88ec-67449c4333b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel\Inline Files">
+      <UniqueIdentifier>{f459b1e8-d7e8-4d50-9bd6-7b3ee0f6a90a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{ce93d4a5-9b45-4fae-bf47-a6b808063487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="UI\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="UI\Header Files\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{27f9cf3e-e4e3-4a50-b749-59103047f877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Header Files">
+      <UniqueIdentifier>{55ec40e2-ea17-40a9-95b0-20990c35339e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Source Files">
+      <UniqueIdentifier>{4bb8c906-8f77-4ceb-b209-95edf685ea9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{1e4fee63-9e5e-43d6-8dc9-bc04400dd2cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{325536fd-0f0b-47e8-a688-cb2029a69cd1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BurrPlaneFinder.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="CenterLine.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="Kernel\ExportPDF.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Mesh\MeshVolume.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="Kernel\Annotations.cpp">
+      <Filter>Kernel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kernel\Labels.cpp">
+      <Filter>Kernel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kernel\Lights.cpp">
+      <Filter>Kernel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kernel\Materials.cpp">
+      <Filter>Kernel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kernel\Math.cpp">
+      <Filter>Kernel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kernel\Matrix4.cpp">
+      <Filter>Kernel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kernel\Plane.cpp">
+      <Filter>Kernel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kernel\Quaternion.cpp">
+      <Filter>Kernel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kernel\Shaders.cpp">
+      <Filter>Kernel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kernel\TriMeshes.cpp">
+      <Filter>Kernel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kernel\Vector2.cpp">
+      <Filter>Kernel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kernel\Vector3.cpp">
+      <Filter>Kernel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kernel\Vector4.cpp">
+      <Filter>Kernel\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreSheet.cpp">
+      <Filter>UI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>UI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewControl.cpp">
+      <Filter>UI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewCtrl.cpp">
+      <Filter>UI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spline.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="PRST_3D.cpp">
+      <Filter>Utility\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\CriticalPointsFinder.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\MeshCurvature.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\Debugger.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Kernel\Matrix3.cpp">
+      <Filter>Kernel\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BurrPlaneFinder.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="CenterLine.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel\ExportPDF.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mesh\MeshVolume.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel\Annotations.h">
+      <Filter>Kernel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel\AxisAlignedBox.h">
+      <Filter>Kernel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel\Box3.h">
+      <Filter>Kernel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel\Colors.h">
+      <Filter>Kernel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel\Exceptions.h">
+      <Filter>Kernel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel\HCoordinates.h">
+      <Filter>Kernel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel\Kernel.h">
+      <Filter>Kernel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel\Labels.h">
+      <Filter>Kernel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel\Lights.h">
+      <Filter>Kernel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel\Materials.h">
+      <Filter>Kernel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel\Math.h">
+      <Filter>Kernel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel\Matrix3.h">
+      <Filter>Kernel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel\Matrix4.h">
+      <Filter>Kernel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel\Plane.h">
+      <Filter>Kernel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel\Quaternion.h">
+      <Filter>Kernel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel\Ray.h">
+      <Filter>Kernel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel\Shaders.h">
+      <Filter>Kernel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel\Sphere.h">
+      <Filter>Kernel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel\TriMeshes.h">
+      <Filter>Kernel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel\Vector2.h">
+      <Filter>Kernel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel\Vector3.h">
+      <Filter>Kernel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel\Vector4.h">
+      <Filter>Kernel\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>UI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreSheet.h">
+      <Filter>UI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>UI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewControl.h">
+      <Filter>UI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewCtrl.h">
+      <Filter>UI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spline.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="PRST_3D.h">
+      <Filter>Utility\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\CriticalPointsFinder.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\Debugger.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CenterLine.inl">
+      <Filter>Kernel</Filter>
+    </None>
+    <None Include="Kernel\Box3.inl">
+      <Filter>Kernel\Inline Files</Filter>
+    </None>
+    <None Include="Kernel\Math.inl">
+      <Filter>Kernel\Inline Files</Filter>
+    </None>
+    <None Include="Kernel\Matrix3.inl">
+      <Filter>Kernel\Inline Files</Filter>
+    </None>
+    <None Include="Kernel\Matrix4.inl">
+      <Filter>Kernel\Inline Files</Filter>
+    </None>
+    <None Include="Kernel\Plane.inl">
+      <Filter>Kernel\Inline Files</Filter>
+    </None>
+    <None Include="Kernel\Quaternion.inl">
+      <Filter>Kernel\Inline Files</Filter>
+    </None>
+    <None Include="Kernel\Vector2.inl">
+      <Filter>Kernel\Inline Files</Filter>
+    </None>
+    <None Include="Kernel\Vector3.inl">
+      <Filter>Kernel\Inline Files</Filter>
+    </None>
+    <None Include="Kernel\Vector4.inl">
+      <Filter>Kernel\Inline Files</Filter>
+    </None>
+    <None Include="ViewControl.def">
+      <Filter>UI\Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="ViewControl.idl">
+      <Filter>UI\Source Files</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="AntlersViewCtrl.bmp">
+      <Filter>UI\Header Files\Resource Files</Filter>
+    </Image>
+    <Image Include="ViewControl.ico">
+      <Filter>UI\Header Files\Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ViewControl.rc">
+      <Filter>UI\Header Files\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

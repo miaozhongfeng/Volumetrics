@@ -1,0 +1,9 @@
+; ViewControl.def : Declares the module parameters.
+
+LIBRARY      "ViewControl"
+
+EXPORTS
+	DllCanUnloadNow     PRIVATE
+	DllGetClassObject   PRIVATE
+	DllRegisterServer   PRIVATE
+	DllUnregisterServer PRIVATE
